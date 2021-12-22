@@ -1,3 +1,10 @@
+use laundry::*;
 fn main() {
-    println!("Hello, world!");
+    
+    let mut input = String::new();
+
+    print!("Input : ");
+    read(&mut input);
+
+    println!("Input was : {}", input);
 }
